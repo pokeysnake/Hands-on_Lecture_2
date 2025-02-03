@@ -2,7 +2,7 @@
 # Pascal's Triangle & Spiral Matrix Problems
 
 ## Overview
-This repository contains Java implementations of **Pascal's Triangle** and **Spiral Matrix** problems, along with a test file (Test_Cases.jav) that verifies their functionality with different inputs.
+This repository contains Java implementations of **Pascal's Triangle** and **Spiral Matrix** problems, along with a test file (Test_Cases.jav) that verifies their accuracy with different inputs.
 This also took very long to make so neat and cool
 ---
 
@@ -45,9 +45,9 @@ The Spiral_Matrix class takes a 2D matrix as input and returns a list of integer
 This file contains test cases for both Pascal's Triangle and Spiral Matrix implementations.
 This file also contains sample test cases and calls printing or testing methods from each respective file to test accuracy
 
-### **How It Works**
-1. **Tests Pascal's Triangle** by creating instances of different and increasing row sizes and printing the results. Additionally, remembering that some elements are the sum of the two elements directly above it.
-2. **Tests Spiral Matrix** by passing different matrix sizes and comparing the output with expected results.
+### **Problem Overview**
+1. **Tests Pascal's Triangle** by creating versions of different and increasing row sizes while printing the results. Additionally, remembering that some elements are the sum of the two elements directly above it.
+2. **Tests Spiral Matrix** by passing different matrix sizes in the parameter and comparing the output with expected results.
 
 ---
 
