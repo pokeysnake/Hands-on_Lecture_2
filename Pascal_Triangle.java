@@ -6,8 +6,8 @@ public class Pascal_Triangle {
     private int rows;
 
     public Pascal_Triangle(int rows) {
-        if(rows <= 0) {
-            throw new IllegalArgumentException("Number of rows must be greater than 0.");
+        if(rows == 0){
+            System.out.println("Number of rows must be greater than 0.");
         }
         this.rows = rows;
     }
@@ -32,9 +32,11 @@ public class Pascal_Triangle {
         }
 
 
-        return triangle;
+        return triangle;                                //return :)
     }
 
+
+    //Printing the triangle 
     public void printTriangle() {
         List<List<Integer>> triangle = generate();
         int maxWidth = triangle.get(triangle.size() - 1).toString().length(); //Calculate the width of the last row to align the triangle
