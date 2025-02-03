@@ -2,8 +2,8 @@
 # Pascal's Triangle & Spiral Matrix Problems
 
 ## Overview
-This repository contains Java implementations of **Pascal's Triangle** and **Spiral Matrix** problems, along with a test file (`Test_Cases.java`) that verifies their functionality with different inputs.
-
+This repository contains Java implementations of **Pascal's Triangle** and **Spiral Matrix** problems, along with a test file (Test_Cases.jav) that verifies their functionality with different inputs.
+This also took very long to make so neat and cool
 ---
 
 ## Pascal's Triangle
