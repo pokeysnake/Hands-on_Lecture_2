@@ -11,7 +11,7 @@ This also took very long to make so neat and cool
 Pascal's Triangle is a triangular array where each row represents the Integer coefficients. Each element is the sum of the two elements directly above it.
 
 ### **Implementation**
-The `Pascal_Triangle` class constructs Pascal’s Triangle for a given number of rows and prints it.
+The Pascal_Triangle class constructs Pascal’s Triangle for a number of rows and prints it.
 
 ### **Sample Test Cases**
 | Input  | Sample Output |
@@ -24,24 +24,24 @@ The `Pascal_Triangle` class constructs Pascal’s Triangle for a given number of
 
 ## Spiral Matrix
 ### **Description**
-Given a 2D matrix, the Spiral Matrix problem requires traversing the matrix in a **clockwise spiral order**.
+Given a 2D matrix, the Spiral Matrix problem requires traversing the matrix in a clockwise spiral order.
 
 ### **Java Implementation**
-The `Spiral_Matrix` class takes a 2D matrix as input and returns a list of integers in spiral order.
+The Spiral_Matrix class takes a 2D matrix as input and returns a list of integers in spiral order.
 
 ### **Sample Test Cases**
 | Matrix  | Expected Output |
 |---------|----------------|
-| `3x3`   | `[1, 2, 3, 6, 9, 8, 7, 4, 5]` |
-| `4x4`   | `[1, 2, 3, 4, 8, 12, 16, 15, 14, 13, 9, 5, 6, 7, 11, 10]` |
-| `2x2`   | `[1, 2, 4, 3]` |
-| `1x1`   | `[1]` |
-| Empty   | `[]` |
+| 3x3   | [1, 2, 3, 6, 9, 8, 7, 4, 5] |
+| 4x4   | [1, 2, 3, 4, 8, 12, 16, 15, 14, 13, 9, 5, 6, 7, 11, 10] |
+| 2x2   | [1, 2, 4, 3] |
+| 1x1   | [1] |
+| Empty   | [] |
 
 ---
 
 ## Test Cases
-### **File: `Test_Cases.java`**
+### **File: Test_Cases.java**
 This file contains test cases for both Pascal's Triangle and Spiral Matrix implementations.
 This file also contains sample test cases and calls printing or testing methods from each respective file to test accuracy
 
