@@ -16,9 +16,9 @@ The Pascal_Triangle class constructs Pascal’s Triangle for a number of rows an
 ### **Sample Test Cases**
 | Input  | Sample Output |
 |--------|----------------|
-| 3 rows | `[1]`, `[1, 1]`, `[1, 2, 1]` |
-| 4 rows | `[1]`, `[1, 1]`, `[1, 2, 1]`, `[1, 3, 3, 1]` |
-| 0 rows | `"Number of rows must be greater than 0."` |
+| 3 rows | [1], [1, 1], [1, 2, 1] |
+| 4 rows | [1], [1, 1], [1, 2, 1], [1, 3, 3, 1] |
+| 0 rows | "Number of rows must be greater than 0." |
 
 ---
 
